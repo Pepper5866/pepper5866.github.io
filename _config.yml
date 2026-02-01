@@ -3,13 +3,13 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://username.github.io
+url:                   https://pepper5866.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# baseurl:               '/hydejack-starter-kit'
+baseurl:               ''
 
 
 # General settings
@@ -20,7 +20,7 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Starter Kit
+title:                 jjikjjikJ Blog
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,7 +29,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               찍찍J의 블로그입니다.
 
 # A list of keywords for your blog
 keywords:              []
@@ -42,8 +42,8 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                <INJE> <SONG>
+  email:               <gncn321@gmail.com>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -171,11 +171,15 @@ defaults:
       seo:
         type:          WebPage
 
+# markdown: kramdown    # 마크다운 형식 이상할 때 (Github pages 기본 마크다운 파싱 엔진)
 kramdown:
+  # input:               GFM # Local과 Github Page 간 Checkbox, Table, Fence Code Block 호환성 안맞을 시 주석 해제
   math_engine:         katex
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
+# pagenate: 10  # 메인 페이지에 글 몇개까지 나열할건지? (미설정시 무한)
+# paginate_path: /page/:num/
 
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
