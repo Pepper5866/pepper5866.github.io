@@ -49,12 +49,28 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             찍찍J의 test category
-    url:               /jjikjjikjtest/
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Knowledge
+    url:               /knowledge/
+    submenu: 
+      - title:         반도체 (Semiconductor)
+        url:           /semiconductor/
+      - title:         개발 (Development)
+        url:           /development/
+      - title:         통계학 (Statistics)
+        url:           /statistics/
+      - title:         머신러닝 (AI & ML)
+        url:           /ai/
+  - title:             취미
+    url:               /hobbies/
+    submenu: 
+      - title:         사진 (Photography)
+        url:           /photography/
+      - title:         가방 (Bags)
+        url:           /bags/
+  # - title:             Example
+  #   url:               /example/
+  # - title:             Documentation
+  #   url:               /docs/
   - title:             About
     url:               /about/
 
